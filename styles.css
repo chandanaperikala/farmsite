@@ -1,0 +1,81 @@
+/* CSS for styling your website */
+/* Add styles for the quote and buttons */
+.content {
+    position: relative;
+}
+.quote {
+    position: absolute;
+    top: 50%;
+    /*left: 50%;
+    transform: translateX(50%);
+    /*background-color: rgba(0, 128, 0, 0.8); /* Greenish background color with transparency */
+    color: rgb(67, 39, 17);
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.buttons {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    /* transform: translateX(-50%);
+    text-align: left; */
+    margin-top: 10px;
+}
+
+.green-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #009900; /* Green button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.green-button:hover {
+    background-color: #007700; /* Darker green on hover */
+}
+
+/* Rest of your CSS styles for the page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
